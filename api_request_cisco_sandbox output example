@@ -1,0 +1,419 @@
+api_request_cisco_sandbox output example 
+
+*******************************************************************
+
+Success!
+{
+    "interfaces-state": {
+        "@xmlns": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+        "@xmlns:if": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+        "interface": [
+            {
+                "name": "GigabitEthernet1",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:ethernetCsmacd"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T10:02:20.659+00:00",
+                "if-index": "1",
+                "phys-address": "00:50:56:bf:bf:e7",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "48981730",
+                    "in-unicast-pkts": "344650",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "125757121",
+                    "out-unicast-pkts": "363469",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "GigabitEthernet2",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:ethernetCsmacd"
+                },
+                "admin-status": "down",
+                "oper-status": "down",
+                "last-change": "2024-10-05T10:02:09.595+00:00",
+                "if-index": "2",
+                "phys-address": "00:50:56:bf:82:f3",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "GigabitEthernet3",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:ethernetCsmacd"
+                },
+                "admin-status": "down",
+                "oper-status": "down",
+                "last-change": "2024-10-05T10:02:09.596+00:00",
+                "if-index": "3",
+                "phys-address": "00:50:56:bf:32:cf",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback0",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T10:02:09.239+00:00",
+                "if-index": "5",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback1",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T23:14:35.101+00:00",
+                "if-index": "10",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback10",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T10:02:09.247+00:00",
+                "if-index": "6",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback100",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-07T02:31:49.926+00:00",
+                "if-index": "16",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:49+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback2",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-06T23:57:48.241+00:00",
+                "if-index": "11",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:48+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback200",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-06T05:23:16.621+00:00",
+                "if-index": "13",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:48+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Loopback500",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:softwareLoopback"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T13:32:10.706+00:00",
+                "if-index": "8",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "8000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:48+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Port-channel2",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:propVirtual"
+                },
+                "admin-status": "up",
+                "oper-status": "lower-layer-down",
+                "last-change": "2024-10-06T02:10:21.682+00:00",
+                "if-index": "12",
+                "phys-address": "00:1e:7a:85:31:c1",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:48+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "Port-channel2.2284",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:propVirtual"
+                },
+                "admin-status": "up",
+                "oper-status": "lower-layer-down",
+                "last-change": "2024-10-06T02:10:21.682+00:00",
+                "if-index": "0",
+                "phys-address": "00:1e:7a:85:31:c1",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "1970-01-01T00:00:00+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            },
+            {
+                "name": "VirtualPortGroup0",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:ethernetCsmacd"
+                },
+                "admin-status": "up",
+                "oper-status": "up",
+                "last-change": "2024-10-05T10:02:12.781+00:00",
+                "if-index": "7",
+                "phys-address": "00:1e:7a:85:31:bd",
+                "speed": "333000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-05T10:00:48+00:00",
+                    "in-octets": "3996",
+                    "in-unicast-pkts": "56",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "2",
+                    "in-unknown-protos": "0",
+                    "out-octets": "291639",
+                    "out-unicast-pkts": "840",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "829"
+                }
+            },
+            {
+                "name": "Vlan999",
+                "type": {
+                    "@xmlns:ianaift": "urn:ietf:params:xml:ns:yang:iana-if-type",
+                    "#text": "ianaift:propVirtual"
+                },
+                "admin-status": "up",
+                "oper-status": "lower-layer-down",
+                "last-change": "2024-10-06T16:38:47.816+00:00",
+                "if-index": "15",
+                "phys-address": "00:1e:7a:85:31:00",
+                "speed": "1000000000",
+                "statistics": {
+                    "discontinuity-time": "2024-10-06T16:38:46.777+00:00",
+                    "in-octets": "0",
+                    "in-unicast-pkts": "0",
+                    "in-broadcast-pkts": "0",
+                    "in-multicast-pkts": "0",
+                    "in-discards": "0",
+                    "in-errors": "0",
+                    "in-unknown-protos": "0",
+                    "out-octets": "0",
+                    "out-unicast-pkts": "0",
+                    "out-broadcast-pkts": "0",
+                    "out-multicast-pkts": "0",
+                    "out-discards": "0",
+                    "out-errors": "0"
+                }
+            }
+        ]
+    }
+}
